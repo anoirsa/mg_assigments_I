@@ -1,0 +1,23 @@
+<resources>
+    <!-- Here we define a full screen window theme -->
+    <!--style name="AppTheme" parent="Theme.AppCompat"-->
+    <!-- Here we define a dialog window theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+
+    </style>
+    <!--Here we define a theme with no action bar and no windo title-->
+    <style name="AppTheme.NoTitle">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">false</item>
+    </style>
+</resources>
+
+<!-- AppCompat.Dialog -->
